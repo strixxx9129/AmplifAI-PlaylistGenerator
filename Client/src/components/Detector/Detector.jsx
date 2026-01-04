@@ -53,7 +53,7 @@ function Detector() {
   const callForAPI = (emotions) => {
     // console.log(emotions)
     axios
-      .post("/getEmotionPlaylist", { emotion: emotions.emotion_type })
+      .post("https://amplifai-server.vercel.app/getEmotionPlaylist", { emotion: emotions.emotion_type })
       .then((res) => {
         setEmotionPlaylists(res.data);
         const playlistInStorage = JSON.parse(

@@ -12,7 +12,7 @@ export default function MainHome() {
 
   useEffect(() => {
     axios
-      .get("/getPlaylist")
+      .get("https://amplifai-server.vercel.app/getPlaylist")
       .then((res) => {
         setPlaylist(res.data);
         console.log(res.data);

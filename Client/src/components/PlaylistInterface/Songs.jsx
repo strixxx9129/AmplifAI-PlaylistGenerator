@@ -21,7 +21,7 @@ function Songs(props) {
       alert("First you have to login");
     } else {
       axios
-        .post("/addToLikedSongs", { song_id: _id, email: user.email })
+        .post("https://amplifai-server.vercel.app/addToLikedSongs", { song_id: _id, email: user.email })
         .then((res) => {
           alert("Liked Succefully");
         })

@@ -33,7 +33,7 @@ export default function Header(props) {
         <Link to="/likedSongs" className="middle_icon">
           <AiOutlineHeart style={{ fontSize: "25px" }} />
         </Link>
-        
+
         <Link to="/premium" className="middle_icon" style={{}}>
           <MdWorkspacePremium
             className="middle_icon_animation"

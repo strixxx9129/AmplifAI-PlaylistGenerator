@@ -25,7 +25,7 @@ function LikedSongs() {
       navigate("/");
     }
     axios
-      .post("/likedSongs", { email: user.email })
+      .post("https://amplifai-server.vercel.app/likedSongs", { email: user.email })
       .then((res) => {
         setLikedSongs(res.data.data);
       })
