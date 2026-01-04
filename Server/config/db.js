@@ -2,9 +2,12 @@ const path = require("path");
 const mongoose = require("mongoose");
 
 //requireing env variables
-require("dotenv").config({
-  path: path.join("config/.env"),
-});
+//requireing env variables
+if (process.env.NODE_ENV !== "production") {
+  require("dotenv").config({
+    path: path.join("config/.env"),
+  });
+}
 
 const password = process.env.MONGODB_PASSWORD;
 const URI = `mongodb+srv://bhargavbusiness644:${password}@cluster0.ih5hdfv.mongodb.net/AmplifAi`;
