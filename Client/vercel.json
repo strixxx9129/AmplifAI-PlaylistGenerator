@@ -25,5 +25,16 @@
             "source": "/findSongs",
             "destination": "https://amplifai-server.vercel.app//findSongs"
         }
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Cross-Origin-Opener-Policy",
+                    "value": "same-origin-allow-popups"
+                }
+            ]
+        }
     ]
 }
