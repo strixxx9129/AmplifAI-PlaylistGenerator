@@ -12,5 +12,12 @@ const app = require("./config/init");
 getRoutes();
 postRoutes();
 
-// app.listen(process.env.PORT);
-app.listen(8000);
+const PORT = process.env.PORT || 8000;
+
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+  });
+}
+
+module.exports = app;

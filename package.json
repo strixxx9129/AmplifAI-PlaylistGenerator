@@ -2,5 +2,24 @@
   "dependencies": {
     "firebase": "^9.22.1",
     "google-one-tap": "^1.0.6"
-  }
+  },
+  "name": "amplifai-playlistgenerator",
+  "version": "1.0.0",
+  "description": "<center>\r <h2>\r     AmplifAI\r </h2>\r </center>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chetan9129/AmplifAI-PlaylistGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chetan9129/AmplifAI-PlaylistGenerator/issues"
+  },
+  "homepage": "https://github.com/chetan9129/AmplifAI-PlaylistGenerator#readme"
 }

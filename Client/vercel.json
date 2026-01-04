@@ -1,0 +1,29 @@
+{
+    "framework": "create-react-app",
+    "rewrites": [
+        {
+            "source": "/api/(.*)",
+            "destination": "REPLACE_WITH_YOUR_SERVER_URL/api/$1"
+        },
+        {
+            "source": "/album",
+            "destination": "REPLACE_WITH_YOUR_SERVER_URL/album"
+        },
+        {
+            "source": "/getEmotionPlaylist",
+            "destination": "REPLACE_WITH_YOUR_SERVER_URL/getEmotionPlaylist"
+        },
+        {
+            "source": "/addToLikedSongs",
+            "destination": "REPLACE_WITH_YOUR_SERVER_URL/addToLikedSongs"
+        },
+        {
+            "source": "/likedSongs",
+            "destination": "REPLACE_WITH_YOUR_SERVER_URL/likedSongs"
+        },
+        {
+            "source": "/findSongs",
+            "destination": "REPLACE_WITH_YOUR_SERVER_URL/findSongs"
+        }
+    ]
+}

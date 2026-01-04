@@ -7,7 +7,7 @@ require("dotenv").config({
 });
 
 const password = process.env.MONGODB_PASSWORD;
-const URI = `mongodb+srv://bhargavbusiness644:GxJ2I5wxyp7W2lfp@cluster0.ih5hdfv.mongodb.net/AmplifAi`;
+const URI = `mongodb+srv://bhargavbusiness644:${password}@cluster0.ih5hdfv.mongodb.net/AmplifAi`;
 
 mongoose.connect(URI);
 
