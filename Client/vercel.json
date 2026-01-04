@@ -24,6 +24,14 @@
         {
             "source": "/findSongs",
             "destination": "https://amplifai-server.vercel.app/findSongs"
+        },
+        {
+            "source": "/getPlaylist",
+            "destination": "https://amplifai-server.vercel.app/getPlaylist"
+        },
+        {
+            "source": "/getPlaylist/(.*)",
+            "destination": "https://amplifai-server.vercel.app/getPlaylist/$1"
         }
     ],
     "headers": [
