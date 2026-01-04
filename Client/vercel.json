@@ -3,27 +3,27 @@
     "rewrites": [
         {
             "source": "/api/(.*)",
-            "destination": "REPLACE_WITH_YOUR_SERVER_URL/api/$1"
+            "destination": "https://amplifai-server.vercel.app//api/$1"
         },
         {
             "source": "/album",
-            "destination": "REPLACE_WITH_YOUR_SERVER_URL/album"
+            "destination": "https://amplifai-server.vercel.app//album"
         },
         {
             "source": "/getEmotionPlaylist",
-            "destination": "REPLACE_WITH_YOUR_SERVER_URL/getEmotionPlaylist"
+            "destination": "https://amplifai-server.vercel.app//getEmotionPlaylist"
         },
         {
             "source": "/addToLikedSongs",
-            "destination": "REPLACE_WITH_YOUR_SERVER_URL/addToLikedSongs"
+            "destination": "https://amplifai-server.vercel.app//addToLikedSongs"
         },
         {
             "source": "/likedSongs",
-            "destination": "REPLACE_WITH_YOUR_SERVER_URL/likedSongs"
+            "destination": "https://amplifai-server.vercel.app//likedSongs"
         },
         {
             "source": "/findSongs",
-            "destination": "REPLACE_WITH_YOUR_SERVER_URL/findSongs"
+            "destination": "https://amplifai-server.vercel.app//findSongs"
         }
     ]
 }
