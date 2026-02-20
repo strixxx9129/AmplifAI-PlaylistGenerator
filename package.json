@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "firebase": "^9.22.1",
+    "firebase": "^10.9.0",
     "google-one-tap": "^1.0.6"
   },
   "name": "amplifai-playlistgenerator",
